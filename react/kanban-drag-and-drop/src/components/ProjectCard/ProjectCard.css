@@ -1,0 +1,12 @@
+.project-card {
+    width: 400px;
+    font-size: 20px;
+    background-color: #C4C4C4;
+    color: #000;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 30px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    text-align: left;
+}

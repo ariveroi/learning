@@ -1,0 +1,30 @@
+.breadcrumbs-container {
+  list-style: none;
+  padding: 0;
+}
+
+.breadcrumbs-container > * {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.breadcrumbs-container li {
+  display: inline;
+}
+
+.breadcrumbs-container li + li::before {
+  content: "/";
+  margin: 0 5px;
+}
+
+.breadcrumbs-container > li > a {
+  color: var(--primary-color);
+}
+
+.breadcrumbs-container > li > a:hover {
+  color: var(--hover-primary-color);
+}
+
+.breadcrumbs-container:last-child::after {
+  content: "";
+}
